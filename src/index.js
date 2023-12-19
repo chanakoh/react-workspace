@@ -10,17 +10,19 @@ import ImgChange from'./js/ImgChange';
 import ObjectExample from'./js/ObjectExample';
 import Animal from './js/Animal';
 import TimerCount from './js/TimerCount';
+import PracticeTwo from './js/PracticeTwo';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/*<App /> react에서 주석은 {/**/}
-    {/*<Count />*/}
+    <App /> 
+    {/*<Count /> //react에서 주석은 {/**/}
     {/*<ToggleButton />*/}
     {/*<IndexExample/>*/}
     {/*<ImgChange/>*/}
     {/*<ObjectExample/>  */}
     {/*<Animal/>  */}
-    <TimerCount/>
+    {/*<TimerCount/>*/}
+   {/* <PracticeTwo/> */}
     </React.StrictMode>
 );
 
